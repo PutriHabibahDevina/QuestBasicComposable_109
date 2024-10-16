@@ -66,6 +66,8 @@ class MainActivity : ComponentActivity() {
                     .size(200.dp)
             )
 
+            Text(text = "Nama", modifier = Modifier.padding(top = 20.dp))
+
         }
     }
 
