@@ -71,6 +71,12 @@ class MainActivity : ComponentActivity() {
                 fontWeight = FontWeight.Bold)
             Text(text = "20220140109", style = TextStyle(fontSize = 25.sp))
 
+            //Gambar 2
+            Image(
+                painter = painterResource(id = R.drawable.foto), //R itu resource
+                contentDescription = null
+            )
+
         }
     }
 
