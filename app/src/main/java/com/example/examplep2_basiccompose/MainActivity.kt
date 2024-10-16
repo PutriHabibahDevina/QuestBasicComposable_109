@@ -56,6 +56,16 @@ class MainActivity : ComponentActivity() {
                 )
             )
             Text(text = "Ini adalah halaman login")
+
+            //Gambar 1
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy), //R itu resource
+                contentDescription = null,
+                modifier = Modifier
+                    .padding(top = 20.dp) //Memberikan jarak antara tulisan dengan gambar
+                    .size(200.dp)
+            )
+
         }
     }
 
