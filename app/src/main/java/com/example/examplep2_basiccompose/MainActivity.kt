@@ -76,7 +76,7 @@ class MainActivity : ComponentActivity() {
                 painter = painterResource(id = R.drawable.foto), //R itu resource
                 contentDescription = null,
                 modifier = Modifier
-                    .padding(top = 20.dp) //Memberikan jarak antara tulisan dengan gambar
+                    .padding(top = 50.dp) //Memberikan jarak antara tulisan dengan gambar
                     .size(250.dp)
                     .clip(RoundedCornerShape(100.dp)) // Membuat sudut melengkung
             )
