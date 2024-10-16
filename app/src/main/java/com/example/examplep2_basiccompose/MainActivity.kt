@@ -63,7 +63,7 @@ class MainActivity : ComponentActivity() {
                 contentDescription = null,
                 modifier = Modifier
                     .padding(top = 20.dp) //Memberikan jarak antara tulisan dengan gambar
-                    .size(200.dp)
+                    .size(250.dp)
             )
 
             Text(text = "Nama", modifier = Modifier.padding(top = 30.dp), fontWeight = FontWeight.Bold)
@@ -76,8 +76,8 @@ class MainActivity : ComponentActivity() {
                 painter = painterResource(id = R.drawable.foto), //R itu resource
                 contentDescription = null,
                 modifier = Modifier
-                    .padding(top = 50.dp) //Memberikan jarak antara tulisan dengan gambar
-                    .size(250.dp)
+                    .padding(top = 40.dp) //Memberikan jarak antara tulisan dengan gambar
+                    .size(300.dp)
                     .clip(RoundedCornerShape(100.dp)) // Membuat sudut melengkung
             )
 
