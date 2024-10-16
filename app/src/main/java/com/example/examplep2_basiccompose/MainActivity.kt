@@ -77,6 +77,8 @@ class MainActivity : ComponentActivity() {
                 contentDescription = null,
                 modifier = Modifier
                     .padding(top = 20.dp) //Memberikan jarak antara tulisan dengan gambar
+                    .size(250.dp)
+                    .clip(RoundedCornerShape(100.dp)) // Membuat sudut melengkung
             )
 
         }
