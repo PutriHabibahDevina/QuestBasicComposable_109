@@ -69,7 +69,7 @@ class MainActivity : ComponentActivity() {
             Text(text = "Nama", modifier = Modifier.padding(top = 20.dp))
             Text(text = "Putri Habibah Devina Maharani", color = Color.Red,
                 fontWeight = FontWeight.Bold)
-            Text(text = "20220140109", style = TextStyle(fontSize = 25.sp))
+            Text(text = "20220140109", style = TextStyle(fontSize = 25.sp), fontWeight = FontWeight.Bold)
 
             //Gambar 2
             Image(
