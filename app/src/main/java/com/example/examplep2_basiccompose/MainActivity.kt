@@ -74,7 +74,9 @@ class MainActivity : ComponentActivity() {
             //Gambar 2
             Image(
                 painter = painterResource(id = R.drawable.foto), //R itu resource
-                contentDescription = null
+                contentDescription = null,
+                modifier = Modifier
+                    .padding(top = 20.dp) //Memberikan jarak antara tulisan dengan gambar
             )
 
         }
