@@ -55,6 +55,7 @@ class MainActivity : ComponentActivity() {
                     fontWeight = FontWeight.Bold
                 )
             )
+            Text(text = "Ini adalah halaman login")
         }
     }
 
